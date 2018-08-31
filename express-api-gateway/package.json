@@ -1,0 +1,29 @@
+{
+  "name": "express-api-gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "ioredis": "^3.2.2",
+    "jsonwebtoken": "^8.3.0",
+    "moleculer": "^0.13.0",
+    "moleculer-db": "^0.7.5",
+    "moleculer-db-adapter-mongoose": "^0.7.1",
+    "moleculer-web": "^0.8.1",
+    "mongoose": "^5.2.10",
+    "morgan": "^1.9.0",
+    "multiparty": "^4.2.1"
+  }
+}

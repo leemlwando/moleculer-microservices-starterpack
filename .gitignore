@@ -1,0 +1,8 @@
+email-service/node_modules
+email-service/.env
+express-api-gateway/node_modules
+express-api-gateway/.env
+moleculer-api-gateway/node_modules
+moleculer-api-gateway/.env
+user-management-service/node_modules
+user-management-service/.env
