@@ -5,11 +5,11 @@ const cors = require('cors');
 const {moleculer} = require('./config');
 
 //define port
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 4000;
 
 //create express app
 const app = express();
-const broker = new ServiceBroker(moleculer.svc);
+const broker = new ServiceBroker(moleculer.broker);
 const router = express.Router();
 
 //load services from file
@@ -28,4 +28,6 @@ app.use('/api',svc.express());
 
 app.listen(port,()=>console.log('server started on port ', port));
 // Start server
+
 broker.start()
+// console.log(broker)

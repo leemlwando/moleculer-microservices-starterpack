@@ -24,6 +24,7 @@
     "moleculer-web": "^0.8.1",
     "mongoose": "^5.2.10",
     "morgan": "^1.9.0",
-    "multiparty": "^4.2.1"
+    "multiparty": "^4.2.1",
+    "request": "^2.88.0"
   }
 }

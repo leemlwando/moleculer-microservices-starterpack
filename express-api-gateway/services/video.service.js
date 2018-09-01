@@ -22,7 +22,7 @@ module.exports = {
 	actions: {
 
             uploads(ctx){
-                console.log('meta',ctx.meta)
+                console.log('meta')
                 ctx.meta.$responseType = "application/json"
                 return {success:true}
             }
