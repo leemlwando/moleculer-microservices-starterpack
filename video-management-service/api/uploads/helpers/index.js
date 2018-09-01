@@ -1,0 +1,1 @@
+module.exports  = {onUpload:require('./video.uploads.onupload')}
